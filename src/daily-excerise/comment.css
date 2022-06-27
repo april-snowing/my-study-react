@@ -1,0 +1,38 @@
+.tab ul {
+    display: flex;
+}
+
+.tab ul li {
+    margin-left: 30px;
+}
+
+.tab ul li.active {
+    color: red;
+}
+
+.comment-list ul li {
+    display: flex;
+    margin-top: 20px;
+}
+
+.comment-list ul li div {
+    margin-left: 30px;
+}
+
+.comment-list ul li .attr {
+    border: 1px solid grey;
+    width: 40px;
+
+}
+
+.comment-list ul li .liked {
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+}
+
+.comment-list ul li .hated {
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+}

@@ -3,10 +3,11 @@ import './index.css';
 import React from "react";
 import { createRoot } from "react-dom/client"
 import { Inbox } from "./daily-study/inbox.js";
-
+import { ExceriseInbox } from "./daily-excerise/inbox"
 function App() {
   return (
-    <Inbox></Inbox>
+    //<Inbox></Inbox>
+    <ExceriseInbox></ExceriseInbox>
   );
 }
 
